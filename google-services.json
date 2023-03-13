@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "130319076913",
+    "project_id": "ondemandservice-fb459",
+    "storage_bucket": "ondemandservice-fb459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130319076913:android:fb0a525685cf642d8e8f10",
+        "android_client_info": {
+          "package_name": "com.arche.ondemandservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130319076913-vetrjkkh2l8llpk7qdojv08fs2k7m4qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxRAocV_xniAF9Xo9YmkFyOLUW9niRNv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130319076913-vetrjkkh2l8llpk7qdojv08fs2k7m4qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+export const app_local = 'http://localhost:5000/api/v1/'

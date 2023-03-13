@@ -1,0 +1,232 @@
+import {StyleSheet} from 'react-native';
+import {
+  borderRadius,
+  colors,
+  fontFamily,
+  fontSize,
+  responsiveHeight,
+  responsiveWidth,
+  spaceVertical,
+} from '../../../styles/variables';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  mainContainer: {
+    position: 'absolute',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: responsiveWidth(90),
+    top: 10,
+    alignSelf: 'center',
+    zIndex: 10,
+  },
+  pager: {
+    height: responsiveHeight(30),
+    alignItems: 'center',
+    width: '100%',
+  },
+  row: {
+    flexDirection: 'row',
+    alignSelf: 'center',
+    marginTop: responsiveHeight(2),
+  },
+  dot: {
+    width: responsiveHeight(1),
+    height: responsiveHeight(1),
+    borderRadius: 6,
+    marginRight: responsiveWidth(2),
+  },
+  yellow: {
+    backgroundColor: colors.darkSecondary,
+  },
+
+  gray: {
+    backgroundColor: colors.inputBorder,
+  },
+  cardview: {
+    width: responsiveWidth(90),
+    borderWidth: 1,
+    borderColor: colors.white,
+    justifyContent: 'center',
+    // backgroundColor: colors.white,
+    borderRadius: borderRadius.semiLarge,
+    shadowOpacity: 2,
+    marginLeft: 0,
+    marginRight: 0,
+    elevation: 5,
+    marginVertical: spaceVertical.extraSmall,
+  },
+  flatlistcardview: {
+    width: responsiveWidth(90),
+    borderWidth: 1,
+    borderColor: colors.white,
+    justifyContent: 'center',
+    zIndex: 10,
+    backgroundColor: colors.charcol,
+    borderRadius: borderRadius.semiLarge,
+    shadowOpacity: 2,
+    marginLeft: 0,
+    marginRight: 0,
+    elevation: 5,
+    marginVertical: spaceVertical.extraSmall,
+    height: responsiveHeight(26),
+  },
+  imageStyle: {
+    height: responsiveHeight(12),
+    width: responsiveWidth(30),
+    borderRadius: borderRadius.semiLarge,
+    margin: 10,
+  },
+  flatimageStyle: {
+    height: responsiveHeight(15),
+    width: responsiveWidth(35),
+    borderRadius: borderRadius.semiLarge,
+    margin: 10,
+  },
+  servicesText: {
+    fontFamily: fontFamily.medium,
+    color: colors.secondary,
+    marginLeft: responsiveWidth(2),
+    textDecorationLine: 'underline',
+  },
+  itemdesc: {
+    fontFamily: fontFamily.regular,
+    // color: colors.secondary,
+    width: responsiveWidth(60),
+    fontSize: 12,
+  },
+  flatlistitemdesc: {
+    fontFamily: fontFamily.regular,
+    color: colors.HARD_WHITE,
+    width: responsiveWidth(50),
+    fontSize: 12,
+  },
+  actualprice: {
+    fontFamily: fontFamily.regular,
+    color: colors.red,
+    fontSize: 12,
+  },
+  discountprice: {
+    fontFamily: fontFamily.regular,
+    color: colors.green,
+    fontSize: 14,
+    marginStart: 3,
+  },
+  rating: {
+    fontFamily: fontFamily.regular,
+    color: colors.HARD_WHITE,
+    left: 5,
+    top: 2,
+    fontSize: 12,
+  },
+  originalPrice: {
+    fontFamily: fontFamily.regular,
+    fontSize: fontSize.extraSmall,
+    color: colors.red,
+    textDecorationLine: 'line-through',
+  },
+  discPrice: {
+    fontFamily: fontFamily.semiBold,
+    fontSize: fontSize.small,
+    color: colors.darkSecondary,
+    marginLeft: responsiveWidth(3),
+  },
+  tabBarView: {
+    marginTop: responsiveHeight(1),
+    flexDirection: 'row',
+    alignItems: 'center',
+    height: responsiveHeight(6),
+    backgroundColor: '#F0F4F7',
+    justifyContent: 'space-between',
+  },
+  tabBarText: {
+    textAlign: 'center',
+    fontFamily: fontFamily.semiBold,
+    fontSize: fontSize.small,
+  },
+  tabButton: {
+    width: responsiveWidth(33.3),
+    height: responsiveHeight(6),
+    justifyContent: 'center',
+  },
+  heartLogo: {
+    height: responsiveHeight(4),
+    width: responsiveWidth(8.5),
+    zIndex: 10,
+    left: 5,
+  },
+  logo: {
+    width: '100%',
+    height: responsiveHeight(30),
+  },
+  serviceView: {
+    alignItems: 'center',
+    position: 'absolute',
+    top: '20%',
+    zIndex: 10,
+    alignSelf: 'center',
+  },
+  serviceDes: {
+    fontFamily: fontFamily.medium,
+    // color: colors.secondary,
+    width: responsiveWidth(30),
+  },
+  contentContainerStyle: {
+    paddingBottom: '80%',
+    marginTop: spaceVertical.large,
+  },
+  renderItem: {
+    alignItems: 'center',
+    alignSelf: 'center',
+  },
+  names: {
+    fontFamily: fontFamily.medium,
+    color: colors.HARD_WHITE,
+    width: responsiveWidth(35),
+  },
+  priceView: {
+    backgroundColor: colors.red,
+    width: responsiveWidth(5),
+    height: responsiveHeight(0.1),
+    position: 'absolute',
+    top: 8,
+  },
+  logoStar: {
+    height: responsiveHeight(3),
+    width: responsiveWidth(6),
+  },
+  bookView: {
+    top: 5,
+    height: responsiveHeight(6),
+    width: responsiveWidth(89.5),
+    borderBottomLeftRadius: borderRadius.medium,
+    borderBottomRightRadius: borderRadius.medium,
+    backgroundColor: colors.gray,
+    justifyContent: 'center',
+    alignSelf: 'center',
+    borderRadius: 50,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  bookText: {
+    color: colors.white,
+    alignSelf: 'center',
+    fontFamily: fontFamily.bold,
+    top: 2,
+  },
+  logoRight: {
+    width: responsiveWidth(5),
+    height: responsiveHeight(3),
+    marginStart: 10,
+    tintColor:colors.white
+  },
+  ratingView: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: responsiveWidth(50),
+  },
+});
+
+export {styles};
